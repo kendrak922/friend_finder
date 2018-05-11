@@ -1,0 +1,15 @@
+/* #FFFF82
+#F5F7DC
+#B5D99C
+#0F0326
+#E65F5C */
+
+body{
+    background-color: #FFFF82;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #E65F5C ;
+}
+
+.jumbotron{
+background: #B5D99C; 
+}
