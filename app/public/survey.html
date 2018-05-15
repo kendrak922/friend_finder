@@ -216,11 +216,17 @@ $("#submit").on("click", function(event){
    
   }
   console.log(newFriend)
-  const currentURL = window.location.origin;
-
-  $.post(currentURL + "/api/friends", newFriend, 
+  $.post("/api/friends", newFriend, 
   function(data){
-    console.log(data)
+    if (data) {
+            alert("friend found");
+          }
+          else {
+            alert("no friends for you");
+          }
+   $("#name").val("");
+   $("#face").val("");
+
 });
 
 });
